@@ -4,17 +4,52 @@
   --accent: #EA5959;
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .body {
   font-family: "Nunito", sans-serif;
   background-color: var(--accent);
+  height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
+  padding: 32px;
 }
 
-.box {
+.todo {
   background-color: #E5E5E5;
-  width: 80vw;
-  height: 80vh;
-  border-radius: 8px;
+  padding: 32px;
+  width: 80%;
+  border-radius: 16px;
+}
+
+.todo__title {
+  font-size: 37px;
+  color: gray;
+}
+
+.todo__inputBox {
+  margin: 16px 0 32px;
+  display: flex;
+}
+
+.todo__input {
+ margin-right: 16px;
+ padding: 20px 16px 20px 16px;
+ width: 60%;
+ font-size: 22px;
+ color: grey;
+ background-color: #F3F3F3;
+ border-radius: 16px;
+ border: none;
+}
+
+.todo__input:focus {
+  outline: none;
+}
+
+.todo__input:placeholder-shown {
+  text-overflow: ellipsis;
 }
