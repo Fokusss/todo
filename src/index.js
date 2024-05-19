@@ -1,3 +1,4 @@
+import './style.css';
 const inputTask = document.querySelector('.todo__input');
 const taskTemplate = document.querySelector('#task').content;
 const taskContainer = document.querySelector('.tasks');
@@ -10,7 +11,7 @@ inputTask.addEventListener('keypress', (e) => {
 })
 
 function addTask(task) {
-  container = taskTemplate.querySelector('.tasks__one').cloneNode(true);
+  const container = taskTemplate.querySelector('.tasks__one').cloneNode(true);
   container.setAttribute('id', task);
   container.querySelector('.tasks__text').textContent = task;
   container.querySelector('.tasks__text').setAttribute('for', task);
@@ -20,7 +21,7 @@ function addTask(task) {
 
   const buttonDeledetTask = container.querySelector('.task__delete');
   buttonDeledetTask.addEventListener('click', () => {
-    deleteTask = document.querySelector(`#${task}`);
+    const deleteTask = document.querySelector(`#${task}`);
     deleteTask.classList.add("tasks__one_delete");
     setTimeout(() => deleteTask.remove(), 500)
     // Сейчас возникает ошибка при которой если сразу все удалять, остается последний эл. 
