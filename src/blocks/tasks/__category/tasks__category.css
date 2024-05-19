@@ -1,0 +1,11 @@
+.tasks__category {
+  padding: 0;
+  width: 115px;
+  height: 24px;
+  font-size: 14px;
+  background-color: #EA5959;
+  border-radius: 4px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 24px;
+}

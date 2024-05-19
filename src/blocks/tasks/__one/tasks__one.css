@@ -1,0 +1,9 @@
+.tasks__one {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tasks__one:not(:last-child) {
+  margin-bottom: 26px;
+}

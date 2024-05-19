@@ -1,0 +1,16 @@
+.task__delete {
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #E5E5E5;
+  background-image: url(../../../delete.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  text-align: center;
+  background-size: 50% 50%;
+  transition: opacity .5s;
+}
+
+.task__delete:hover {
+  opacity: .5;
+}

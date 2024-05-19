@@ -1,0 +1,8 @@
+.body {
+  font-family: "Nunito", sans-serif;
+  background-color: #EA5959;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}

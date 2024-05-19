@@ -1,0 +1,18 @@
+.todo__input {
+  margin-right: 16px;
+  padding: 20px 16px 20px 16px;
+  width: 60%;
+  font-size: 22px;
+  color: grey;
+  background-color: #F3F3F3;
+  border-radius: 16px;
+  border: none;
+ }
+
+ .todo__input:focus {
+  outline: none;
+}
+
+.todo__input:placeholder-shown {
+  text-overflow: ellipsis;
+}

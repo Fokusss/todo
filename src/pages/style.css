@@ -1,0 +1,29 @@
+@import url(../vendor/normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url(../blocks/body/body.css);
+@import url(../blocks/keyframes/moveDelete.css);
+@import url(../blocks/todo/todo.css);
+@import url(../blocks/todo/__title/todo__title.css);
+@import url(../blocks/todo/__inputBox/todo__inputBox.css);
+@import url(../blocks/todo/__input/todo__input.css);
+@import url(../blocks/tasks/tasks.css);
+@import url(../blocks/tasks/__one/tasks__one.css);
+@import url(../blocks/tasks/__one/_delete/tasks__one_delete.css);
+@import url(../blocks/tasks/__checkbox/tasks__checkbox.css);
+@import url(../blocks/tasks/__text/tasks__text.css);
+@import url(../blocks/tasks/__category/tasks__category.css);
+@import url(../blocks/tasks/__delete/tasks__delete.css);
+@import url(../blocks/tasks/__box/task__box.css);
+
+
+
+
+
+
+
+
+
+
+
+
+
