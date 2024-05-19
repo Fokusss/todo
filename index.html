@@ -13,13 +13,25 @@
       <input class="todo__input" type="text" placeholder="Add a new task insdie ‘All’ category">
     </div>
   <ul class="tasks">
+    <li class="tasks__one">
+      <div class="tasks__box">
+        <input type="checkbox" id="1" class="tasks__checkbox">
+        <label for="1" class="tasks__text">Новая задача</label>
+        <p class="tasks__category">All</p>
+      </div>
+      <button class="task__delete"></button>
+    </li>
   </ul>
   </section>
   <template id="task">
     <li class="tasks__one">
-      <input type="checkbox" id="" class="tasks__checkbox">
-      <label for="" class="tasks__text"></label>
-      <p class="tasks__category"></p>
+      <div class="tasks__box">
+        <input type="checkbox" id="" class="tasks__checkbox">
+        <label for="" class="tasks__text"></label>
+        <p class="tasks__category"></p>
+      </div>
+      <button class="task__delete"></button>
+    </li>
   </template>
   <script src="index.js"></script>
 </body>
