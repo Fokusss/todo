@@ -1,7 +1,7 @@
 .todo__input {
   margin-right: 16px;
   padding: 20px 16px 20px 16px;
-  width: 60%;
+  min-width: 600px;
   font-size: 22px;
   color: grey;
   background-color: #F3F3F3;
